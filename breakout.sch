@@ -37,7 +37,7 @@ encoding utf-8
 Sheet 1 1
 Title "ESP8266 breakout board"
 Date "2015-12-30"
-Rev "1.0"
+Rev "1.1"
 Comp "Stochastic Technologies"
 Comment1 ""
 Comment2 ""
@@ -130,12 +130,12 @@ $EndComp
 $Comp
 L R R4
 U 1 1 56840F5D
-P 6700 2300
-F 0 "R4" H 6770 2346 50  0000 L CNN
-F 1 "10KΩ" H 6770 2254 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 6630 2300 50  0001 C CNN
-F 3 "" H 6700 2300 50  0000 C CNN
-	1    6700 2300
+P 6900 2300
+F 0 "R4" H 6970 2346 50  0000 L CNN
+F 1 "10KΩ" H 6970 2254 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6830 2300 50  0001 C CNN
+F 3 "" H 6900 2300 50  0000 C CNN
+	1    6900 2300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -180,17 +180,13 @@ Wire Wire Line
 Wire Wire Line
 	6500 3650 7000 3650
 Wire Wire Line
-	3600 2050 6700 2050
+	3600 2050 6900 2050
 Wire Wire Line
 	3150 2400 3750 2400
 Wire Wire Line
 	3150 2400 3150 4500
 Wire Wire Line
 	3150 4500 6800 4500
-Wire Wire Line
-	6700 2050 6700 2150
-Wire Wire Line
-	6700 2450 6700 3350
 Wire Wire Line
 	4250 2400 4250 3150
 Connection ~ 4250 3150
@@ -206,7 +202,6 @@ Connection ~ 4600 2050
 Wire Wire Line
 	3750 1500 3750 2100
 Connection ~ 3750 2050
-Connection ~ 6700 3350
 Wire Wire Line
 	6550 4500 6550 3650
 Connection ~ 6550 3650
@@ -322,4 +317,26 @@ Wire Wire Line
 Connection ~ 2600 2050
 Wire Wire Line
 	3300 1500 3750 1500
+$Comp
+L R R6
+U 1 1 56844D05
+P 6550 2300
+F 0 "R6" H 6620 2346 50  0000 L CNN
+F 1 "10KΩ" H 6620 2254 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6480 2300 50  0001 C CNN
+F 3 "" H 6550 2300 50  0000 C CNN
+	1    6550 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 2050 6900 2150
+Wire Wire Line
+	6550 2150 6550 2050
+Connection ~ 6550 2050
+Wire Wire Line
+	6550 2450 6550 3350
+Connection ~ 6550 3350
+Wire Wire Line
+	6900 2450 6900 3450
+Connection ~ 6900 3450
 $EndSCHEMATC
