@@ -1,4 +1,4 @@
-update=Wed 30 Dec 2015 05:07:02 PM EET
+update=Wed 06 Jan 2016 05:28:29 AM EET
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=/home/stavros/Documents/Hardware/KiCad Libraries/ESP8266/ESP8266
+LibName31=/home/stavros/Documents/Hardware/KiCad Libraries/Mine/misc
