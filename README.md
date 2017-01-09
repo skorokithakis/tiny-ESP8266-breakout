@@ -21,6 +21,15 @@ components, and you'll have to solder them yourself. You'll need:
 If any of the links above aren't working, just search your favorite site for the
 components or visit your local electronics shop, they should have all of these.
 
+You can use these ESP8266 versions with this PCB:
+
+* ESP-07
+* ESP-12
+* ESP-12E
+* ESP-12Q
+* ESP-12F
+* ESP-14
+
 
 ## License
 
