@@ -15,8 +15,8 @@ components, and you'll have to solder them yourself. You'll need:
 
 * [0805 SMD 10k Ohm
   resistors](https://www.aliexpress.com/item/0805-SMD-Resistor-5-10K-ohm-5000pcs-lot/32307395708.html)
-* [0805 SMD 22 uF
-  capacitors](https://www.aliexpress.com/item/SMD-ceramic-capacitor-2012-0805-22-uf-6-3-V-100-PCS/32768384675.html)
+* [0805 SMD 10 uF
+  capacitors](https://www.aliexpress.com/item/Free-shipping-0805-SMD-capacitor-10uf-16V-106K-100PCS/32376052582.html)
 * [SPX3819M5-L-3-3 TR 3.3V SMD
   LDO](https://www.aliexpress.com/item/10PCS-SPX3819M5-SPX3819M5-3-3-SPX3819M5-L-3-3-TR-SOT-23-5/32522603067.html)
 * [Male pin headers
