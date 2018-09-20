@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:breakout-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -175,28 +176,6 @@ F 3 "" H 6550 2500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X09 P1
-U 1 1 568C725D
-P 3600 3350
-F 0 "P1" H 3600 3850 50  0000 C CNN
-F 1 "CONN_01X09" V 3700 3350 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x09" H 3600 3350 50  0001 C CNN
-F 3 "" H 3600 3350 50  0000 C CNN
-	1    3600 3350
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X09 P2
-U 1 1 568C7A2E
-P 7200 3350
-F 0 "P2" H 7200 3850 50  0000 C CNN
-F 1 "CONN_01X09" V 7300 3350 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x09" H 7200 3350 50  0001 C CNN
-F 3 "" H 7200 3350 50  0000 C CNN
-	1    7200 3350
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C2
 U 1 1 5694F907
 P 2800 2650
@@ -208,7 +187,7 @@ F 3 "" H 2800 2650 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L APE8865Y5-33-HF-3 U2
+L APE8865Y5-33-HF-3-RESCUE-breakout U2
 U 1 1 5696F404
 P 3150 2200
 F 0 "U2" H 2850 2500 50  0000 C CNN
@@ -355,4 +334,36 @@ F 3 "" H 2500 2000 50  0000 C CNN
 	1    2500 2000
 	1    0    0    -1  
 $EndComp
+NoConn ~ 3800 3750
+NoConn ~ 3800 3650
+NoConn ~ 3800 3550
+NoConn ~ 3800 3450
+NoConn ~ 3800 3350
+NoConn ~ 3800 3250
+NoConn ~ 3800 3150
+NoConn ~ 3800 3050
+NoConn ~ 3800 2950
+NoConn ~ 7000 2950
+NoConn ~ 7000 3050
+NoConn ~ 7000 3150
+NoConn ~ 7000 3250
+NoConn ~ 7000 3350
+NoConn ~ 7000 3450
+NoConn ~ 7000 3550
+NoConn ~ 7000 3650
+NoConn ~ 7000 3750
+$Comp
+L Conn_01x01 J1
+U 1 1 5BA3118D
+P 2150 2800
+F 0 "J1" H 2150 2900 50  0000 C CNN
+F 1 "Conn_01x01" H 2150 2700 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.00mm" H 2150 2800 50  0001 C CNN
+F 3 "" H 2150 2800 50  0001 C CNN
+	1    2150 2800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2350 2800 2500 2800
+Connection ~ 2500 2800
 $EndSCHEMATC
