@@ -4,6 +4,18 @@ This is a tiny ESP8266 breakout board. I made it because the small breakouts I
 bought took up the entire breadboard and didn't include basic pullup/pulldown
 resistors.
 
+## Tinier PCB
+
+This repository includes a branch with [an even tinier
+version](https://github.com/skorokithakis/tiny-ESP8266-breakout/tree/tinier)
+that is smaller than an ESP8266 12E. It's the size of the 12E minus the antenna,
+and it includes the voltage regulator and all the capacitors and resistors
+the ESP8266 needs to boot, but it doesn't include through-hole connectors (so
+you will have to solder wires directly onto the ESP8266 contacts).
+
+It's for when you really really need as much space as you can. Fabricate it
+at 0.4mm thickness and enjoy.
+
 
 ## Ready-made PCB
 
